@@ -1,0 +1,139 @@
+@media screen and (max-width:1199px) {
+    .satu {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .satu {
+        height: 1200px;
+    }
+
+    .nav-item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .head-tittle-hero {
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .second-tittle {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn-order {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .btn-order a {
+        font-size: 20px;
+    }
+
+    .dua {
+        height: 1100px;
+    }
+    .gambar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text-tittle-2  {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .line {
+        margin: auto;
+    }
+
+    .text-content {
+        margin-top: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .btn-order-2 {
+        margin-top: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tiga {
+        height: 1300px;
+    }
+
+    .empat {
+        height: 1300px;
+    }
+
+    .text-content-service {
+        text-align: center;
+    }
+
+    .text-delivery {
+        text-align: center;
+    }
+
+    .support {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .satu {
+        height: 1000px;
+    }
+
+    .btn-order {
+        width: 200px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .btn-order-2 {
+        font-size: 14px;
+        padding: 10px 40px;
+    }
+
+    .gambar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .dua {
+        height: 1700px;
+    }
+
+    .tiga {
+        height: 2400px;
+    }
+
+    .kurir {
+        
+        width: 80%;
+        height: 100%;
+    }
+
+    .text-ft {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .btn-order-2 {
+        font-size: 12px;
+    }
+}
